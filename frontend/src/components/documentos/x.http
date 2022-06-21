@@ -1,0 +1,15 @@
+POST http://127.0.0.1:8000/api/token/
+Content-Type: application/json
+
+{
+    "username": "gaibarra",
+    "password": "6Vlgpcr/zaira"
+}
+
+
+
+GET http://127.0.0.1:8000/api/contratos/
+Content-Type: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjE3NzUwMzcxLCJqdGkiOiI3M2QxZWYxNDU5NTA0ZDFhODgxMjBjMGE1MjcyYmViYiIsInVzZXJfaWQiOjF9.IjkAlUSuwTPCHTu0g06NvoJ4haYcp28oKevoGYzcxJ8
+
+ 
