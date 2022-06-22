@@ -26,13 +26,13 @@ ALLOWED_HOSTS = ['*']
 import dj_database_url
 from decouple import config
 
-DATABASES = {}
-# DATABASES = {
-#     'default': dj_database_url.config(
-#         default=config('HEROKU_POSTGRESQL_OLIVE_URL')
-#     )
+#DATABASES = {}
+DATABASES = {
+    'default': dj_database_url.config(
+        default=config('HEROKU_POSTGRESQL_OLIVE_URL')
+    )
 
-# }
+}
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
